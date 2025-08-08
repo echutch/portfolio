@@ -34,12 +34,9 @@ export default function ThemeToggle() {
       type="button"
       aria-label={`Switch to ${theme === "light" ? "dark" : "light"} mode`}
       onClick={toggle}
-      className="inline-flex items-center rounded-md border border-black/10 dark:border-white/15 px-3 py-1.5 text-sm bg-transparent hover:bg-black/5 dark:hover:bg-white/10"
+      className="inline-flex items-center rounded-md border border-black/10 dark:border-white/15 px-3 py-1.5 text-sm bg-transparent hover:bg-black/5 dark:hover:bg-white/10 hover:cursor-pointer transition-colors"
     >
-      <span className="text-base">{theme === "light" ? "🌞" : "🌙"}</span>
-      <span className="ml-2 hidden sm:inline">
-        {theme === "light" ? "Light" : "Dark"}
-      </span>
+      <span className="text-base">{theme === "light" ? "⏾" : "☼"}</span>
     </button>
   );
 }

@@ -24,7 +24,7 @@ export default function Home() {
             View Projects
           </Link>
           <a
-            href="https://github.com/yourhandle"
+            href="https://github.com/echutch"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-md border border-black/10 dark:border-white/15 px-4 py-2 text-sm hover:bg-black/5 dark:hover:bg-white/10"
@@ -32,7 +32,7 @@ export default function Home() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/yourhandle"
+            href="https://www.linkedin.com/in/evan-hutchins/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-md border border-black/10 dark:border-white/15 px-4 py-2 text-sm hover:bg-black/5 dark:hover:bg-white/10"

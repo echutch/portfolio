@@ -39,18 +39,15 @@ export default function RootLayout({
 
         <header className="border-b border-black/10 dark:border-white/15">
           <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
-            <Link href="/" className="font-semibold tracking-tight">
-              Evan Hutchins
-            </Link>
             <nav className="hidden md:flex items-center gap-6 text-sm">
+              <Link href="/" className="font-semibold tracking-tight">
+                Home
+              </Link>
               <Link href="/projects" className="hover:underline underline-offset-4">
                 Projects
               </Link>
               <Link href="/experience" className="hover:underline underline-offset-4">
                 Experience
-              </Link>
-              <Link href="/skills" className="hover:underline underline-offset-4">
-                Skills
               </Link>
               <Link href="/about" className="hover:underline underline-offset-4">
                 About
@@ -70,9 +67,8 @@ export default function RootLayout({
         </main>
 
         <footer className="border-t border-black/10 dark:border-white/15">
-          <div className="mx-auto max-w-6xl px-4 py-6 text-sm text-foreground/70 flex items-center justify-between">
+          <div className="mx-auto max-w-6xl px-4 py-6 text-sm text-foreground/70 flex items-center justify-center">
             <p>&copy; {new Date().getFullYear()} Evan Hutchins</p>
-            <p className="hidden sm:block">Built with Next.js and Tailwind CSS</p>
           </div>
         </footer>
       </body>
