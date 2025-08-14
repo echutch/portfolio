@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     template: "%s | Evan Hutchins",
   },
   description: "Student Portfolio.",
+  icons: {
+    icon: "/letter-e.svg",
+  },
 };
 
 export default function RootLayout({
@@ -43,16 +46,16 @@ export default function RootLayout({
               <Link href="/" className="font-semibold tracking-tight">
                 Home
               </Link>
-              <Link href="/projects" className="hover:underline underline-offset-4">
+              <Link href="/" className="hover:underline underline-offset-4"> {/* /projects */}
                 Projects
               </Link>
-              <Link href="/experience" className="hover:underline underline-offset-4">
+              <Link href="/" className="hover:underline underline-offset-4"> {/* /experience */}
                 Experience
               </Link>
-              <Link href="/about" className="hover:underline underline-offset-4">
+              <Link href="/" className="hover:underline underline-offset-4"> {/* /about */}
                 About
               </Link>
-              <Link href="/contact" className="hover:underline underline-offset-4">
+              <Link href="/" className="hover:underline underline-offset-4"> {/* /contact */}
                 Contact
               </Link>
             </nav>
