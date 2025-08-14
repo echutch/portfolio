@@ -12,17 +12,26 @@ export default function Home() {
           Evan Hutchins
         </h1>
         <p className="mt-4 text-foreground/80 max-w-2xl">
-          I build systems and software across embedded, web, and AI. Here are selected projects,
-          experience, and skills that reflect my work and interests.
+          {/* I build systems and software across embedded, web, and AI. Here are selected projects,
+          experience, and skills that reflect my work and interests. */}
+          Portfolio under construction... in the meantime, check out my Resume, GitHub, and LinkedIn!
         </p>
 
         <div className="mt-6 flex flex-col sm:flex-row gap-3">
-          <Link
+          {/* <Link
             href="/projects"
             className="inline-flex items-center justify-center rounded-md bg-foreground text-background px-4 py-2 text-sm font-medium hover:opacity-90"
           >
             View Projects
-          </Link>
+          </Link> */}
+          <a
+            href="https://drive.google.com/drive/folders/1_JTo6aXcWPRoNWOpmfFY6do7455v0KA5?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-md border border-black/10 dark:border-white/15 px-4 py-2 text-sm hover:bg-black/5 dark:hover:bg-white/10"
+          >
+            Resume
+          </a>
           <a
             href="https://github.com/echutch"
             target="_blank"
@@ -43,7 +52,7 @@ export default function Home() {
       </section>
 
       {/* Featured Projects (placeholder) */}
-      <section>
+      {/* <section>
         <div className="flex items-center justify-between">
           <h2 className="text-xl font-semibold">Featured Projects</h2>
           <Link href="/projects" className="text-sm text-foreground/70 hover:underline underline-offset-4">
@@ -74,10 +83,10 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </section>
+      </section> */}
 
       {/* Quick Links */}
-      <section>
+      {/* <section>
         <h2 className="text-xl font-semibold">Explore</h2>
         <div className="mt-6 grid gap-6 sm:grid-cols-3">
           <Link
@@ -102,7 +111,7 @@ export default function Home() {
             <p className="mt-2 text-sm text-foreground/70">Who I am and what I&apos;m into.</p>
           </Link>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
