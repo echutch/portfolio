@@ -99,7 +99,7 @@ export default function Home() {
             className="rounded-lg border border-black/10 dark:border-white/15 p-4 hover:bg-black/5 dark:hover:bg-white/10 transition-colors block"
           >
             <h3 className="font-medium">About</h3>
-            <p className="mt-2 text-sm text-foreground/70">Who I am and what I'm into.</p>
+            <p className="mt-2 text-sm text-foreground/70">Who I am and what I&apos;m into.</p>
           </Link>
         </div>
       </section>
